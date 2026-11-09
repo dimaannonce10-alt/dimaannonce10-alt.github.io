@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Support | BetX Royal - VIP Casino Simulator</title>
+    <meta name="description" content="Official Customer Support and Developer Contact page for BetX Royal (iOS). Inquiries: dimaannonce10@gmail.com.">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-link">
+                <img src="assets/logo.png" alt="BetX Royal Logo" class="brand-logo">
+                <div class="brand-text">
+                    <h1>BETX ROYAL</h1>
+                    <p>VIP Casino Simulator</p>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Overview</a>
+                <a href="index.html#games">Games</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="contact.html" class="btn-contact-nav active">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content-wrapper">
+        <div class="legal-card">
+            <div class="legal-header">
+                <h1>Contact & Customer Support</h1>
+                <div class="legal-meta">
+                    <span><strong>Application:</strong> BetX Royal - VIP Casino Simulator</span>
+                    <span><strong>Developer Support:</strong> <a href="mailto:dimaannonce10@gmail.com">dimaannonce10@gmail.com</a></span>
+                    <span><strong>SLA:</strong> 24 to 48 Business Hours</span>
+                </div>
+            </div>
+
+            <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 1.05rem;">
+                Need help with a VIP Pass subscription, virtual coin rewards, technical support, or compliance inquiries? Our dedicated developer support team is here to assist you.
+            </p>
+
+            <div class="contact-grid">
+                <!-- Info Left Column -->
+                <div class="contact-info-card">
+                    <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--gold); margin-bottom: 20px;">Support Channels</h3>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Official Support Email</h4>
+                            <a href="mailto:dimaannonce10@gmail.com">dimaannonce10@gmail.com</a>
+                            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 2px;">Direct inbox for all user, technical, and Apple review inquiries.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">⏱️</div>
+                        <div class="contact-details">
+                            <h4>Response Time Commitment</h4>
+                            <p>Within 24 to 48 Hours</p>
+                            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 2px;">Monday through Saturday (excluding major holidays).</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">🛡️</div>
+                        <div class="contact-details">
+                            <h4>Privacy & Legal Notices</h4>
+                            <p>Attn: Data Protection Officer</p>
+                            <a href="mailto:dimaannonce10@gmail.com?subject=Privacy%20Inquiry%20-%20BetX%20Royal">Submit Privacy Request &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">🍎</div>
+                        <div class="contact-details">
+                            <h4>Apple Subscriptions</h4>
+                            <p>StoreKit 2 billing managed via Apple ID.</p>
+                            <a href="https://support.apple.com/billing" target="_blank" rel="noopener">Apple Billing Portal &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Form Right Column -->
+                <div class="contact-form">
+                    <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--gold); margin-bottom: 20px;">Send a Direct Message</h3>
+
+                    <form onsubmit="handleContactSubmit(event)">
+                        <div class="form-group">
+                            <label class="form-label" for="userName">Your Name or In-Game Nickname</label>
+                            <input type="text" id="userName" class="form-control" placeholder="e.g., RoyalPlayer99" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="userEmail">Your Email Address</label>
+                            <input type="email" id="userEmail" class="form-control" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="inquiryType">Category</label>
+                            <select id="inquiryType" class="form-control">
+                                <option value="VIP Subscription / StoreKit Issue">VIP Pass & Subscription Issue</option>
+                                <option value="Technical Bug / App Crash">Technical Bug / Crash Report</option>
+                                <option value="Virtual Coins / Ad Rewards">Virtual Coins & Rewarded Ads</option>
+                                <option value="Privacy / GDPR / CCPA Request">Privacy & Data Subject Request</option>
+                                <option value="General Question / Feedback">General Feedback</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="userMessage">Your Message</label>
+                            <textarea id="userMessage" class="form-control" placeholder="Please describe your inquiry or feedback in detail..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; border: none; cursor: pointer;">
+                            <span>Launch Email to Support</span>
+                            <span>&rarr;</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div style="margin-top: 50px;">
+                <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--gold); margin-bottom: 20px; text-align: center;">Frequently Asked Questions</h3>
+                
+                <div class="legal-content">
+                    <h3>Can I win real money or cash out virtual coins from BetX Royal?</h3>
+                    <p>No. BetX Royal is strictly an amusement and simulation game. Virtual coins and chips possess zero monetary value and cannot under any circumstance be cashed out, refunded, or exchanged for real money, cryptocurrency, or real-world prizes.</p>
+
+                    <h3>How do I restore my VIP Pass after switching devices?</h3>
+                    <p>Open BetX Royal, navigate to the VIP Pass screen, and tap "Restore Purchases". StoreKit 2 will query Apple's App Store servers and immediately re-activate your active VIP status.</p>
+
+                    <h3>How do I cancel an auto-renewing VIP subscription?</h3>
+                    <p>Subscriptions are billed and managed directly through Apple Inc. To cancel, go to your iPhone's <code>Settings &gt; [Your Apple ID Name] &gt; Subscriptions &gt; BetX Royal &gt; Cancel Subscription</code> at least 24 hours prior to the next billing date.</p>
+
+                    <h3>How do I request complete deletion of my data?</h3>
+                    <p>BetX Royal operates with a privacy-first, client-side architecture; your game progression is stored locally on your device and not on remote user account servers. You can permanently erase all local game data at any time simply by uninstalling the application from your iPhone.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="index.html" class="brand-link">
+                    <img src="assets/logo.png" alt="BetX Royal" class="brand-logo">
+                    <div class="brand-text">
+                        <h1>BETX ROYAL</h1>
+                        <p>VIP Casino Simulator &bull; iOS</p>
+                    </div>
+                </a>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="app-ads.txt">app-ads.txt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 BetX Royal Studios. All rights reserved. Registered Developer: <a href="mailto:dimaannonce10@gmail.com" style="color: var(--gold);">dimaannonce10@gmail.com</a></div>
+                <div>Official Support Desk &bull; Contact: dimaannonce10@gmail.com</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('userName').value;
+            const category = document.getElementById('inquiryType').value;
+            const message = document.getElementById('userMessage').value;
+            
+            const subject = encodeURIComponent(`[BetX Royal Support] ${category} - ${name}`);
+            const body = encodeURIComponent(`Hello BetX Royal Support Team,\n\nName / Nickname: ${name}\nCategory: ${category}\n\nMessage:\n${message}\n\nSent from BetX Royal Web Support Portal`);
+            
+            window.location.href = `mailto:dimaannonce10@gmail.com?subject=${subject}&body=${body}`;
+        }
+    </script>
+</body>
+</html>
